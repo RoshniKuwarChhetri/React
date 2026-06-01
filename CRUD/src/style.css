@@ -1,0 +1,40 @@
+
+table{ 
+    margin-left: 27%;
+    height: 70%;
+    width:50%;
+    color: #e9074a;
+     border-collapse: collapse;
+     background-color: #c771cf66;
+     border: 2px solid #e9074a;
+     
+}
+thead{
+    color: black;
+    background-color: #c771cf66;
+}
+
+button{
+    color: #f5eff1;
+    background-color: #f3779c;
+    border: 2px solid rgb(131, 5, 131);
+    margin: 2px;
+    
+}
+
+.link, button{
+   
+    text-decoration: none;
+    color: #f5eff1;
+}
+h1,tr{
+    text-align: center;
+}
+td, th{
+   padding: 10px;
+}
+
+.create{
+    margin-left: 50%;
+    margin-bottom: 10px;
+}

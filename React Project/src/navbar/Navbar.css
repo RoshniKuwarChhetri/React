@@ -1,0 +1,76 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== NAVBAR ===== */
+ul {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #f5aabd, #ffc2d1); /* 💖 pink gradient */
+  padding: 15px 40px;
+  list-style: none;
+  box-shadow: 0 6px 15px rgba(255, 105, 180, 0.3);
+}
+
+/* Push HOME left */
+ul li:first-child {
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Nav items */
+li {
+  margin: 0 10px;
+}
+
+/* Links */
+li a {
+  text-decoration: none;
+  color: #b83280; /* 💕 deep pink text */
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 20px; /* 🎀 rounded */
+  transition: all 0.3s ease;
+}
+
+/* Hover (cute bubble effect) */
+li a:hover {
+  background: #ff85a2;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+}
+
+/* Active link */
+li a.active {
+  background: #ff4d88;
+  color: white;
+  box-shadow: 0 4px 10px rgba(255, 77, 136, 0.4);
+}
+/* Logout button */
+.logout-btn {
+  background: white;
+  color: #ff4da6;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.logout-btn:hover {
+  background: #ffe6f2;
+  transform: scale(1.05);
+}
+
+/* Click effect */
+.logout-btn:active {
+  transform: scale(0.95);
+}

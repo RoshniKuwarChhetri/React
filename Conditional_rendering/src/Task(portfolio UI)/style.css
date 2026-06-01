@@ -1,0 +1,119 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTAINER */
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+/* LIGHT MODE */
+.container.light {
+    background-color: white;
+    color: black;
+}
+
+/* TEXT SECTION */
+.text {
+    height: 100%;
+    width: 100%;
+    
+    
+    
+}
+
+/* IMAGE SECTION */
+.image {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://thumbs.dreamstime.com/b/beautiful-black-white-profile-portrait-little-girl-s-face-isolated-dark-background-touching-dramatic-image-childhood-435738239.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* TITLE */
+.title {
+    margin-top: 40%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+/* PARAGRAPH */
+.para {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+/* BUTTONS */
+button {
+    height: 35px;
+    width: 120px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* DARK MODE BUTTONS */
+.btn1 {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.btn2 {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+/* LIGHT MODE BUTTONS */
+.light .btn1 {
+    background-color: black;
+    color: white;
+}
+
+.light .btn2 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+/* NAME */
+.john {
+    margin: 15px;
+    font-size: 20px;
+}
+
+/* TOGGLE BUTTON */
+.toggle {
+    position: absolute;
+   
+    right: -4px;
+    height: 40px;
+    width: 80px;
+    background-color: gray;
+    
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+    
+}
+
+
+.container.light .circle {
+   
+    background-color: black;
+}

@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.forget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
